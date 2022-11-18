@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arx</title>
+    <meta name="description" content="A classless CSS framework to write modern websites using only HTML.">
+    <meta name="keywords" content="newcss,new.css,css,xz,css framework,classless css,xz.style">
+    <meta property="og:title" content="new.css">
+    <meta property="og:url" content="https://fuckpath.net/">
+    <meta property="og:description" content="A classless CSS framework to write modern websites using only HTML.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://newcss.net/_assets/og.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/open-fonts@1.1.1/fonts/inter.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+</head>
+<body>
+    <header>
+        <h1>Arx</h1>
+        <nav>
+            <a href="https://newcss.net">Home</a> /
+            <a href="https://github.com/Archs7331">GitHub</a>
+        </nav>
+    </header>
+
+    <h1>Contacts</h1>
+
+    <table>
+      <caption>These are my only contacts.</caption>
+      <thead>
+          <tr>
+              <th>Platform</th>
+              <th>Handle</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Discord</td>
+              <td>Arx#1844 / 974240401017946122</td>
+          </tr>
+          <tr>
+              <td>Telegram</td>
+              <td>@hekecat</td>
+          </tr>
+          <tr>
+              <td>Matrix</td>
+              <td>@ebpf:matrix.org</td>
+          </tr>
+      </tbody>
+  </table>
+
+    <br>
+
+    <h2>Bio/About Me</h2>
+  
+<pre>
+arx@arx:~$ cat about.me
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   Alias: 'Arx'
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   Languages: 'Go','Py','Js','Kt','C',
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   What do i do?: 'Sysadmin','Network Security','Mitigation Tactics'
+@@@@@@@@@@@@@P::::::::!@@@@@@@@@   Skills: 'Backend Dev','IpTables','BPF','XDP','Cloudflare API',
+@!:G@@@@@@@@P::::::::?@@@@@@G:!@   'Network Analasys'
+P:::P@@@@@@?::::::::?@@@@@@G:::P   
+!::::P@@@@!::::::::P@@GPPP?::::!   
+::::::?@G!::::::::G@@G::::::::::
+?:::::::::::::::P@@@!::::::::::?
+G::::::::::::::G@@G???:::::::::G
+@G::::::::::::G@@@@@@!::::::::G@
+@@G!::::::::!@@@@@@@!:::::::!G@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+</pre>
+
+    <br>
+
+    
+</pre>
+    
+    <script async defer src="https://api.newcss.net/latest.js"></script>
+    <noscript><img src="https://api.newcss.net/noscript.gif" alt=""></noscript>
+
+</body>
