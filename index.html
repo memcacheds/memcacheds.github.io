@@ -11,6 +11,12 @@
     <meta property="og:type" content="gawd">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/open-fonts@1.1.1/fonts/inter.min.css">
     <link rel="stylesheet" href="mane.css">
+    <script>
+function playMusic(){
+  var music = new Audio('music.mp3');
+  music.play();
+  }
+    </script>
 </head>
 <body>
     <header>
@@ -19,6 +25,10 @@
             <a href="/">Home</a> /
             <a href="https://github.com/Archs7331">GitHub</a>
         </nav>
+        <div>
+            <input type="button" value="Play Music" onclick="playMusic()" />
+         
+       </div>
     </header>
 
     <h1>Contacts</h1>
