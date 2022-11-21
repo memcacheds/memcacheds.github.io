@@ -11,12 +11,7 @@
     <meta property="og:type" content="gawd">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/open-fonts@1.1.1/fonts/inter.min.css">
     <link rel="stylesheet" href="mane.css">
-    <script>
-function playMusic(){
-  var music = new Audio('music.mp3');
-  music.play();
-  }
-    </script>
+
 </head>
 <body>
     <header>
@@ -26,7 +21,30 @@ function playMusic(){
             <a href="https://github.com/Archs7331">GitHub</a>
         </nav>
         <div>
-            <input type="button" value="Play Music" onclick="playMusic()" />
+            <button id="ASong" onClick="playPause()">
+                <audio
+                  src="music.mp3"
+                  autoplay
+                  loop
+                ></audio>
+                Play Music
+              </button>
+              
+              <script>
+                var aud = document.getElementById("ASong").children[0];
+                var isPlaying = false;
+                aud.pause();
+              
+                function playPause() {
+                  if (isPlaying) {
+                    aud.pause();
+                  } else {
+                    aud.play();
+                  }
+                  isPlaying = !isPlaying;
+                }
+              </script>
+              
          
        </div>
     </header>
